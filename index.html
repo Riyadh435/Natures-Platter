@@ -6,6 +6,7 @@
     <title>Fruits Shop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
     <link
       href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
       rel="stylesheet"
@@ -33,18 +34,32 @@
         margin-top: 70px;
         margin-bottom: 280px;
       }
-      .f-m {
-        padding-top: 200px;
-      }
+     
       /* absulate */
       .ab{
         max-width: 1100px;
         left: 15%;
         
       }
+      .foot-padding{
+        padding-top: 180px;
+      }
+      @media screen and (max-width: 576px) {
+        .foot-padding{
+        padding-top: 5px;
+        .m{
+          margin-bottom: 30px;
+        }
+      }
+
+        
+      }
 
 
     </style>
+
+
+
   </head>
   <body class="sora">
     <header class="container mt-5 mx-auto">
@@ -572,7 +587,7 @@
       </section>
     </main>
     <!-- footer -->
-    <footer class="bg-[#179800] f-m relative">
+    <footer class="bg-[#179800] foot-padding relative">
       <div
         class="px-4 flex flex-col lg:flex-row lg:justify-between lg:items-center container lg:mx-auto container py-20 mt-20"
       >
