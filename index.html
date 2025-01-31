@@ -24,44 +24,26 @@
         font-family: "Sora", serif;
       }
 
-      .primary-color {
-        color: #179800;
-      }
-
       .bihw {
         max-height: 90px;
         max-width: 90px;
       }
 
       .m {
-        margin-top: 100px;
+        margin-top: 70px;
         margin-bottom: 280px;
       }
       .f-m {
         padding-top: 200px;
       }
-
-      .ab {
-        margin-left: 120px;
-      }
-
-      .bar{
-        display: none;
-      }
-
-      @media screen and (max-width: 768px) {
-        .ab {
-          margin-left: 0;
-        }
-      }
     </style>
   </head>
   <body class="sora">
     <header class="container mt-5 mx-auto">
-
       <nav class="flex justify-between items-center">
         <div class="">
-          <img src="c2-assets/logo-header.png" alt="">
+          <img class="hidden lg:block" src="c2-assets/logo-header.png" alt="" />
+          <img class="lg:hidden ml-3" src="c2-assets/Group.png" alt="">
         </div>
         <div class="hidden lg:block">
           <ul class="flex gap-5">
@@ -72,30 +54,34 @@
         </div>
         <div class="flex gap-2 items-center">
           <div class="hidden lg:block">
-            <img src="c2-assets/search (2) 1.png" alt="">
+            <img src="c2-assets/search (2) 1.png" alt="" />
           </div>
           <div class="hidden lg:block">
-            <img src="c2-assets/c.png" alt="">
+            <img src="c2-assets/c.png" alt="" />
           </div>
-          <button class="btn btn-primary px-8 bg-white text-black hidden lg:block">Login</button>
-          <button class="btn btn-primary px-8 bg-[#179800] text-white hidden lg:block">Registar</button>
+          <button
+            class="btn btn-primary px-8 bg-white text-black hidden lg:block"
+          >
+            Login
+          </button>
+          <button
+            class="btn btn-primary px-8 bg-[#179800] text-white hidden lg:block"
+          >
+            Registar
+          </button>
 
-          <div class="lg:hidden ">
-            <img src="c2-assets/bars-3.png" alt="">
+          <div class="lg:hidden mr-3">
+            <img src="c2-assets/bars-3.png" alt="" />
           </div>
-          
         </div>
-        
       </nav>
-
-
     </header>
 
     <main class="mt-12 relative">
       <section class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
-        <h1 class="font-bold text-center text-4xl">
-          Freshness <span class="primary-color">You Can</span><br />
-          <span class="primary-color">Count </span>On, Prices You’ll Love!
+        <h1 class="font-bold text-center lg:text-4xl text-2xl px-5">
+          Freshness <span class="text-[#179800]">You Can</span><br />
+          <span class="text-[#179800]">Count </span>On, Prices You’ll Love!
         </h1>
         <p class="mt-5 text-center">
           Shop your daily essentials at unbeatable prices. From fresh produce to
@@ -110,7 +96,7 @@
 
       <!-- Services -->
       <section class="my-14 text-left mx-auto container">
-        <h2 class="primary-color font-bold text-2xl ml-5">Services</h2>
+        <h2 class="text-[#179800] font-bold text-2xl ml-5">Services</h2>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-5 mx-7">
           <div
@@ -127,8 +113,7 @@
             </div>
             <h2 class="font-bold">24/7 Services</h2>
             <p class="px-3 text-center">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt
+              Available anytime, day or night, for your convenience.
             </p>
           </div>
 
@@ -146,8 +131,8 @@
             </div>
             <h2 class="font-bold">Fast Delivery</h2>
             <p class="px-3 text-center">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt
+              Experience speedy and efficient delivery services that get your
+              orders to your doorstep in no time.
             </p>
           </div>
 
@@ -165,8 +150,8 @@
             </div>
             <h2 class="font-bold">Healthy Products</h2>
             <p class="px-3 text-center">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt
+              Our products are 100% natural and healthy, ensuring you enjoy the
+              benefits of fresh .
             </p>
           </div>
         </div>
@@ -176,7 +161,7 @@
       <section class="bg-[#EFEBE3] px-4">
         <div class="mx-auto">
           <div class="container mx-auto py-20">
-            <h2 class="primary-color font-bold pb-5 font-bold text-2xl ml-7">
+            <h2 class="text-[#179800] font-bold pb-5 font-bold text-2xl ml-7">
               Popular products
             </h2>
             <div
@@ -211,7 +196,7 @@
               </div>
 
               <!-- small cards -->
-              <div class="grid grid-cols-2 lg:grid-cols-3 gap-5">
+              <div class="grid grid-cols-2 lg:grid-cols-3 lg:gap-5 gap-2">
                 <div
                   class="bg-white p-3 rounded-lg overflow-hidden flex items-center"
                 >
@@ -227,27 +212,7 @@
                       </div>
                       <span>4.5</span>
                     </div>
-                    <h2 class="font-semibold text-lg">Onion 1kg</h2>
-                    <p class="text-gray-600">$2.99</p>
-                  </div>
-                </div>
-
-                <div
-                  class="bg-white p-3 rounded-lg overflow-hidden flex items-center"
-                >
-                  <div
-                    class="bg-[#EFEBE3] rounded-lg overflow-hidden lg:p-2 flex justify-center items-center"
-                  >
-                    <img class="bihw" src="c2-assets/onion.png" alt="" />
-                  </div>
-                  <div class="ml-5">
-                    <div class="flex gap-1 items-center">
-                      <div class="">
-                        <img src="c2-assets/Vector.png" alt="" />
-                      </div>
-                      <span>4.5</span>
-                    </div>
-                    <h2 class="font-semibold text-lg">Onion 1kg</h2>
+                    <h2 class="font-semibold text-sm lg:text-lg">Onion 1kg</h2>
                     <p class="text-gray-600">$2.99</p>
                   </div>
                 </div>
@@ -266,7 +231,7 @@
                       </div>
                       <span>4.5</span>
                     </div>
-                    <h2 class="font-semibold text-lg">Onion 1kg</h2>
+                    <h2 class="font-semibold text-sm lg:text-lg">Onion 1kg</h2>
                     <p class="text-gray-600">$2.99</p>
                   </div>
                 </div>
@@ -285,7 +250,7 @@
                       </div>
                       <span>4.5</span>
                     </div>
-                    <h2 class="font-semibold text-lg">Onion 1kg</h2>
+                    <h2 class="font-semibold text-sm lg:text-lg">Onion 1kg</h2>
                     <p class="text-gray-600">$2.99</p>
                   </div>
                 </div>
@@ -304,7 +269,7 @@
                       </div>
                       <span>4.5</span>
                     </div>
-                    <h2 class="font-semibold text-lg">Onion 1kg</h2>
+                    <h2 class="font-semibold text-sm lg:text-lg">Onion 1kg</h2>
                     <p class="text-gray-600">$2.99</p>
                   </div>
                 </div>
@@ -323,7 +288,7 @@
                       </div>
                       <span>4.5</span>
                     </div>
-                    <h2 class="font-semibold text-lg">Onion 1kg</h2>
+                    <h2 class="font-semibold text-sm lg:text-lg">Onion 1kg</h2>
                     <p class="text-gray-600">$2.99</p>
                   </div>
                 </div>
@@ -342,7 +307,7 @@
                       </div>
                       <span>4.5</span>
                     </div>
-                    <h2 class="font-semibold text-lg">Onion 1kg</h2>
+                    <h2 class="font-semibold text-sm lg:text-lg">Onion 1kg</h2>
                     <p class="text-gray-600">$2.99</p>
                   </div>
                 </div>
@@ -361,7 +326,7 @@
                       </div>
                       <span>4.5</span>
                     </div>
-                    <h2 class="font-semibold text-lg">Onion 1kg</h2>
+                    <h2 class="font-semibold text-sm lg:text-lg">Onion 1kg</h2>
                     <p class="text-gray-600">$2.99</p>
                   </div>
                 </div>
@@ -380,7 +345,26 @@
                       </div>
                       <span>4.5</span>
                     </div>
-                    <h2 class="font-semibold text-lg">Onion 1kg</h2>
+                    <h2 class="font-semibold text-sm lg:text-lg">Onion 1kg</h2>
+                    <p class="text-gray-600">$2.99</p>
+                  </div>
+                </div>
+                <div
+                  class="bg-white p-3 rounded-lg overflow-hidden flex items-center"
+                >
+                  <div
+                    class="bg-[#EFEBE3] rounded-lg overflow-hidden lg:p-2 flex justify-center items-center"
+                  >
+                    <img class="bihw" src="c2-assets/onion.png" alt="" />
+                  </div>
+                  <div class="ml-5">
+                    <div class="flex gap-1 items-center">
+                      <div class="">
+                        <img src="c2-assets/Vector.png" alt="" />
+                      </div>
+                      <span>4.5</span>
+                    </div>
+                    <h2 class="font-semibold text-sm lg:text-lg">Onion 1kg</h2>
                     <p class="text-gray-600">$2.99</p>
                   </div>
                 </div>
@@ -390,11 +374,120 @@
         </div>
       </section>
 
+      <!-- Reviews -->
+      <section class="my-5 lg:my-14 text-left mx-auto container">
+        <h2 class="text-[#179800] font-bold text-2xl ml-5">
+          What Our Users Say
+        </h2>
+
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-8 mx-7"
+        >
+          <div
+            class="flex flex-col items-center bg-[#FFF7ED] rounded-xl shadow-md p-4 hover:shadow-lg transition-all duration-300"
+          >
+            <div
+              class="bg-white w-24 h-24 rounded-full flex items-center justify-center overflow-hidden border-2 border-[#F97316]"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="c2-assets/user.png"
+                alt="User 1"
+              />
+            </div>
+            <h3 class="mt-3 text-sm font-semibold text-[#F97316]">
+              Alex Johnson
+            </h3>
+            <p class="text-xs text-gray-600 text-center mt-2">
+              "The 24/7 support is incredible! Highly recommend."
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col items-center bg-[#E3FDFD] rounded-xl shadow-md p-4 hover:shadow-lg transition-all duration-300"
+          >
+            <div
+              class="bg-white w-24 h-24 rounded-full flex items-center justify-center overflow-hidden border-2 border-[#14B8A6]"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="c2-assets/user.png"
+                alt="User 2"
+              />
+            </div>
+            <h3 class="mt-3 text-sm font-semibold text-[#14B8A6]">
+              Sofia Martinez
+            </h3>
+            <p class="text-xs text-gray-600 text-center mt-2">
+              "Delivery is incredibly fast and reliable!"
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col items-center bg-[#F0F9FF] rounded-xl shadow-md p-4 hover:shadow-lg transition-all duration-300"
+          >
+            <div
+              class="bg-white w-24 h-24 rounded-full flex items-center justify-center overflow-hidden border-2 border-[#1D4ED8]"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="c2-assets/user.png"
+                alt="User"
+              />
+            </div>
+            <h3 class="mt-3 text-sm font-semibold text-[#1D4ED8]">Liam Wong</h3>
+            <p class="text-xs text-gray-600 text-center mt-2">
+              "Their healthy products are always fresh!"
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col items-center bg-[#FFFAF0] rounded-xl shadow-md p-4 hover:shadow-lg transition-all duration-300"
+          >
+            <div
+              class="bg-white w-24 h-24 rounded-full flex items-center justify-center overflow-hidden border-2 border-[#FB923C]"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="c2-assets/user.png"
+                alt=""
+              />
+            </div>
+            <h3 class="mt-3 text-sm font-semibold text-[#FB923C]">
+              Emily Brown
+            </h3>
+            <p class="text-xs text-gray-600 text-center mt-2">
+              "Amazing experience! The service is top-notch."
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col items-center bg-[#F7FCE3] rounded-xl shadow-md p-4 hover:shadow-lg transition-all duration-300"
+          >
+            <div
+              class="bg-white w-24 h-24 rounded-full flex items-center justify-center overflow-hidden border-2 border-[#A3E635]"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="c2-assets/user.png"
+                alt=""
+              />
+            </div>
+            <h3 class="mt-3 text-sm font-semibold text-[#A3E635]">
+              Noah Davis
+            </h3>
+            <p class="text-xs text-gray-600 text-center mt-2">
+              "Quick response, healthy options, and great value!"
+            </p>
+          </div>
+        </div>
+      </section>
+
       <!-- Offers -->
       <section class="m relative">
         <div class="container mx-auto py-20 my-14">
           <h2
-            class="primary-color font-bold pb-5 font-bold text-2xl ml-7 lg:ml-0"
+            class="text-[#179800] font-bold pb-5 font-bold text-2xl ml-7 lg:ml-0"
           >
             Arrival & Offers
           </h2>
@@ -409,11 +502,17 @@
                 <button class="btn bg-[#63B76D] text-white">
                   Cook Exotic Dishes
                 </button>
-                <p class="text-white text-xl lg:text-4xl mx-7">
+                <p class="text-white text-xl lg:text-4xl lg:mx-7">
                   UP to <span class="font-bold">20% OFF</span>
                 </p>
               </div>
-              <img class="" src="c2-assets/dawat-mock-up.png" alt="" />
+              <div class="overflow-hidden p-4">
+                <img
+                  class="m-w-10 m-h-10"
+                  src="c2-assets/dawat-mock-up.png"
+                  alt=""
+                />
+              </div>
             </div>
             <div
               class="bg-[#102861] rounded-lg overflow-hidden p-3 flex items-center justify-between lg:w-2/5"
@@ -427,13 +526,19 @@
                   UP to <span class="font-bold">20% OFF</span>
                 </p>
               </div>
-              <img class="px-5" src="c2-assets/india-gate-mock-up.png" alt="" />
+              <div class="overflow-hidden">
+                <img
+                  class="m-w-10 m-h-7 p-6"
+                  src="c2-assets/india-gate-mock-up.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
         <!-- Absulate card -->
         <div
-          class="flex justify-center items-center absolute z-10 container ab"
+          class="flex justify-center items-center absolute z-10 container lg:ml-[8%]"
         >
           <div
             class="bg-[#EFEBE3] py-14 rounded-lg flex lg:flex-row flex-col items-center justify-around gap-5 container px-14"
@@ -458,7 +563,7 @@
         </div>
       </section>
     </main>
-
+    <!-- footer -->
     <footer class="bg-[#179800] f-m relative">
       <div
         class="px-4 flex flex-col lg:flex-row lg:justify-between lg:items-center container lg:mx-auto container py-20 mt-20"
@@ -483,22 +588,25 @@
           <ul class="flex gap-4 mt-3">
             <li>
               <a href="">
-                <img src="c2-assets/fb.png" alt="" />
+          
+                <img class="text-white bg-white rounded-full" src="c2-assets/bxl-facebook-circle.svg" alt="" />
               </a>
             </li>
             <li>
               <a href="">
-                <img src="c2-assets/fb.png" alt="" />
+               
+                <img class="text-white bg-white rounded-full" src="c2-assets/bxl-twitter.svg" alt="" />
               </a>
             </li>
             <li>
               <a href="">
-                <img src="c2-assets/fb.png" alt="" />
+            
+                <img class="text-white bg-white rounded-full" src="c2-assets/bxl-instagram.svg" alt="" />
               </a>
             </li>
             <li>
               <a href="">
-                <img src="c2-assets/fb.png" alt="" />
+                <img class="text-white bg-white rounded-full" src="c2-assets/bxl-tiktok.svg" alt="" />
               </a>
             </li>
           </ul>
